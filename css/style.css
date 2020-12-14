@@ -1,0 +1,110 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro p{
+    text-align: center;
+}
+
+h1, h2, h3, h4{
+    color: #5d7963;
+    font-family: 'Italiana', serif;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand{
+    color: #5d7963 !important;
+    font-family: 'Italiana', serif;
+    font-size: 30px;
+}
+
+#intro h2{
+    font-size: 90px;
+}
+
+#intro h6{
+    color: white;
+    font-size: 30px;
+    font-family: 'Italiana', serif;
+}
+.subsmall{
+    background-color: #5d7963;
+    height: 80px;
+}
+
+.mask{
+    background-color: #f1efec;
+    opacity: 80%;
+}
+
+.list-group li{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    border-radius: 0 !important;
+}
+
+.advantage{
+    color: #5d7963;
+    text-align: center;
+}
+
+#about p{
+    text-align: justify;
+}
+
+#project h6{
+    color: #5d7963;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#project p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+form {
+    color: gray;
+}
+
+.substrate{
+    background-color: #5d7963;
+}
+
+#layouts, #about p,li{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+#layouts a{
+    color: #5d7963 !important;
+    font-size: medium;
+}
+
+/*#layouts img{*/
+/*    width: 100%;*/
+/*}*/
+
+#stages ul{
+    list-style-type: none;
+}
+#contact p{
+    font-size: 16px;
+}
+
+#contact i{
+    color: #5d7963;
+}
+
+.contact{
+    background-color: #5d7963 !important;
+    color: white;
+}
+
+
+

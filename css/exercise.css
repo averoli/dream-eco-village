@@ -1,0 +1,18 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 5fr 1fr 4fr 2fr 3fr 3fr 2fr 4fr 1fr 5fr;
+    gap: 1rem;
+    --verticalPadding: 2rem;
+    --overlap: 6rem;
+}
+
+.item {
+    grid-column: 1 / -1;
+}
