@@ -29,9 +29,10 @@ p{
 }
 
 #intro h6{
-    color: white;
-    font-size: 30px;
-    font-family: 'Italiana', serif;
+    color: #E4D7C7;
+    font-size: 40px;
+    letter-spacing: 0.05em;
+    font-family: 'Cormorant', serif;
 }
 .subsmall{
     background-color: #5d7963;
@@ -104,6 +105,11 @@ form {
 .contact{
     background-color: #5d7963 !important;
     color: white;
+}
+
+a{
+    color: black !important;
+    text-decoration: none;
 }
 
 
