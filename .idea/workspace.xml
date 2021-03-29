@@ -20,7 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ede582a-0c96-4f6e-ba35-2763e11d406b" name="Default Changelist" comment="Update">
+      <change afterPath="$PROJECT_DIR$/images/Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexEng.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexEng.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +62,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -96,6 +102,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="344" y="211" key="#Notifications" timestamp="1615800588694">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="344" y="211" key="#Notifications/0.23.1280.777@0.23.1280.777" timestamp="1615800588694" />
     <state x="255" y="186" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609358060112">
       <screen x="0" y="23" width="1280" height="712" />
     </state>
@@ -112,6 +122,10 @@
       <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state x="316" y="89" key="Github.UntrackedFilesDialog/0.23.1280.709@0.23.1280.709" timestamp="1607969005513" />
+    <state x="141" y="23" key="SettingsEditor" timestamp="1615464055973">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="141" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1615464055973" />
     <state x="240" y="120" key="Vcs.Push.Dialog.v2" timestamp="1614954623424">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
