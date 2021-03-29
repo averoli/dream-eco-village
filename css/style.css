@@ -142,7 +142,7 @@ p {
 #advantage{
     display: flex;
     flex-wrap: wrap;
-    height: 25vh;
+    /*height: 25vh;*/
     width: 100%;
     text-align: center;
     justify-content: space-around;
