@@ -1,16 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>Dream Eco Village</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+          integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -19,7 +24,19 @@
         <div class="container">
 
             <!-- Navbar brand -->
-            <a class="navbar-brand" href="#">Dream eco Village</a>
+            <a id="brand" class="navbar-brand order-lg-0" href="#">
+                Dream eco Village
+            </a>
+
+            <!-- Languages-->
+            <div class="row mx-lg-2 order-lg-2">
+                <ul class="navbar-nav nav-flex-icons mx-auto" style="flex-direction: row">
+                    <li class="nav-item"><a class="nav-link">es</a></li>
+                    <li class="nav-item"><a class="nav-link">en</a></li>
+                    <li class="nav-item"><a class="nav-link">ru</a></li>
+                </ul>
+            </div>
+            <!-- Languages-->
 
             <!-- Collapse button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
@@ -31,493 +48,461 @@
             <div class="collapse navbar-collapse" id="basicExampleNav">
 
                 <!-- Links -->
-                <ul class="navbar-nav m-auto">
+                <ul class="navbar-nav m-auto order-lg-1">
                     <li class="nav-item active">
                         <a class="nav-link" href="#intro">
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#project">ПРОЕКТ</a>
+                        <a class="nav-link" href="#project">Proecto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">О НАС</a>
+                        <a class="nav-link" href="#about">Sobre nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#layouts">ПЛАНИРОВКИ</a>
+                        <a class="nav-link" href="#layouts">Diseños</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#gallery">ГАЛЕРЕЯ</a>
+                        <a class="nav-link" href="#gallery">Galería</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">КОНТАКТЫ</a>
+                        <a class="nav-link" href="#contact">Contactos</a>
                     </li>
                 </ul>
+                <!-- Links -->
 
                 <!-- Social Icon  -->
-                <ul class="navbar-nav nav-flex-icons">
+                <ul class="navbar-nav nav-flex-icons mx-auto order-lg-3" style="flex-direction: row">
                     <li class="nav-item">
-                        <a  href="https://www.facebook.com/" class="nav-link"><i class="fab fa-facebook-f fa-2x"></i></a>
+                        <a href="https://www.facebook.com/" class="nav-link"><i class="fab fa-facebook-f fa-2x"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://www.instagram.com/ecovillage_dream/" class="nav-link"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="https://www.instagram.com/ecovillage_dream/" class="nav-link"><i
+                                class="fab fa-instagram fa-2x"></i></a>
                     </li>
                 </ul>
+                <!-- Social Icon  -->
             </div>
             <!-- Collapsible content -->
-            <!-- Languages-->
-            <!--            <div class="row mx-2">-->
-            <!--                <ul class="navbar-nav nav-flex-icons">-->
-            <!--                    <li class="nav-item"><a class="nav-link">es</a></li>-->
-            <!--                    <li class="nav-item"><a class="nav-link">en</a></li>-->
-            <!--                    <li class="nav-item"><a class="nav-link">ru</a></li>-->
-            <!--                </ul>-->
-            <!--            </div>-->
         </div>
-
     </nav>
     <!-- Navigation-->
-
-    <!-- Page intro-->
-    <div id="intro" class="container-fluid  h-100">
-
-        <!--            <div class="row h-25"></div>-->
-
-        <div class="row justify-content-center">
-            <!--                <div class="col-md-9">-->
-            <img src="images/intro.jpg" class="mx-auto d-block img-fluid" />
-            <!--                </div>-->
-        </div>
-        <div class="row align-items-center justify-content-center subsmall mb-5">
-            <h6 class="text-center">creamos espacio con armonia</h6>
-        </div>
-
-        <div class="row justify-content-center">
-
-            <div class="row mb-3">
-
-                <div class="col-lg-3">
-                    <div class="advantage">
-                        <p>ЭНЕРГОЭФФЕКТИВНОСТЬ КЛАССА А</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3">
-                    <div class="advantage">
-                        <p>ЭКОНОМИЧНАЯ ЦЕНАЯ</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3">
-                    <div class="advantage">
-                        <p>ЭКОЛОГИЧНЫЙ ПОДХОД</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3">
-                    <div class="advantage">
-                        <p>ВЫСОКОЕ КАЧЕСТВО МАТЕРИАЛОВ</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row col-11">
-
-                <div class="col-lg-3">
-                    <hr>
-                    <div class="advantage">
-                        <p>СООТВЕТСТВИЕ СТРОИТЕЛЬНОМУ КОДЕКСУ ИСПАНИИ</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3">
-                    <hr>
-                    <div class="advantage">
-                        <p>ПОЛНЫЙ ЦИКЛ СТРОИТЕЛЬСТВА 6 МЕСЯЦЕВ</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3">
-                    <hr>
-                    <div class="advantage">
-                        <p>СОСЕДСТВО С ЕДИНОМЫШЛЕННИКАМИ</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3">
-                    <hr>
-                    <div class="advantage">
-                        <p>УДОБНОЕ МЕСТОПОЛОЖЕНИЕ</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-    </div>
-    <!-- Page intro-->
 </header>
 
-<main class="mt-5">
+<!--    Section: MAIN PAGE -->
+<section id="intro">
+    <div class="row h-75">
+        <div class="col-lg-7 intro">
+            <div class="image">
+                <div class="textblock">
+                    <h3>creamos espacio con armonia</h3>
+                </div>
+                <div class="imagecontainer">
+                    <img src="images/intro.jpg" alt="dream-village" class="w-100"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+<section id="advantage">
+    <div>
+        <p class="text">eficiencia energetica clase A</p>
+    </div>
+    <div>
+        <p class="text">precio economico</p>
+    </div>
+    <div>
+        <p class="text">enfoque ecológico</p>
+    </div>
+    <div>
+        <p class="text">conformidad de construcción con <br>el Código Técnico de Edificación</p>
+    </div>
+    <div>
+        <p>ciclo completo de construcción <br>en 6 meses</p>
+    </div>
+    <div>
+        <p>comunidad de vecinos con los mismos principios <br> y prácticas ecológicas</p>
+    </div>
+</section>
+<!--    Section: MAIN PAGE -->
+
+<hr class="my-5">
+
+<!--    Section: PROJECT -->
+<section id="project" class="my-5">
+    <div class="container" style="margin-top: 60px">
+        <h2 class="section-title">¿Por qué una casa en Dream ECO Village?</h2>
+        <div class="row">
+            <div class="col-lg-3">
+                <h6 class="mb-3">Precio económicamente atractivo</h6>
+                <p>utilizamos la tecnología de construcción modular a partir de contenedores marítimos,
+                    que nos permite reducir el precio de una casa en un 30-50% en comparación con los análogos,
+                    ya que no hay necesidad de una base masiva y la construcción de una caja de hormigón para la
+                    casa</p>
+            </div>
+            <div class="col-lg-3">
+                <h6 class="mb-3">Proceso ecológico</h6>
+                <p>al utilizar materiales sostenibles y reutilizar el contenedor para reducir los desechos de la
+                    construcción,
+                    contribuimos a proteger el medio ambiente. Además, a petición suya, instalaremos un sistema de
+                    energía solar</p>
+            </div>
+
+            <div class="col-lg-6 w-100">
+                <img src="images/project.jpg" class="img-fluid" alt="project"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <h6 class="text-center my-3">Alta calidad</h6>
+                <p>utilizamos materiales de alta calidad en estricto cumplimiento de todos los códigos de construcción.
+                    El aislamiento térmico de alta calidad y la ventilación controlada garantizan un ambiente
+                    confortable
+                    en la casa y un ahorro agradable en los costos de energía</p>
+            </div>
+            <div class="col-lg-3">
+                <h6 class="my-3">Velocidad de construcción</h6>
+                <p>realizamos el ciclo completo de la obra de construcción 2 veces más rápido en comparación
+                    con el sistema de construcción clásico (desde el proyecto hasta la celebración de la inauguración,
+                    solo tomará 6 meses)</p>
+            </div>
+            <div class="col-lg-3">
+                <h6 class="my-3">Ubicación</h6>
+                <p>DREAM ECO VILLAGE está ubicado junto a la infraestructura necesaria para una vida cómoda y de
+                    calidad,
+                    cerca del mar</p>
+            </div>
+            <div class="col-lg-3">
+                <h6 class="my-3">Comunidad de vecinos afines</h6>
+                <p>Los residentes de DREAM ECO VILLAGE son personas que protegen los valores familiares
+                    y se preocupan por el mundo que los rodea</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--    Section: PROJECT -->
+
+<hr class="my-5">
+
+<!--    Section: ABOUT -->
+<section id="about">
     <div class="container">
+        <div class="row">
+            <div class="col-lg-5 order-md-first order-last">
+                <img src="images/About.JPG" class="img-fluid border-dark" alt="about"/>
+            </div>
+            <div class="col-lg-7 order-md-last order-first">
+                <!--                Heading-->
+                <h2 class="section-title">SOBRE NOSOTROS</h2>
+                <p>Nuestros nombres son Ekaterina y Emiliano, somos los creadores del proyecto DREAM ECO VILLAGE.
+                    <br>Nos complace darle la bienvenida a nuestro sitio web.
+                </p>
 
-        <hr class="my-5">
+                <p> Nos gustaría compartir con ustedes la historia de la creación de nuestro proyecto.
+                    Una vez durante la cena, una vez más soñamos con la casa de nuestros sueños, espaciosa,
+                    cómoda para la familia (después de todo, somos cinco),con todo lo que necesitábamos estuviera en
+                    ella.
+                    Y cercana a los servicios básicos para que la familia se desarrollase en un entorno soñado:
+                    escuelas, servicios medicos,
+                    bien comunicada con el transporte publico, etc. y buscando la optimización de los recursos siendo
+                    ecosuficientes,
+                    adoptando todas las medidas posibles para ser mas sostenibles y reducir las facturas de forma
+                    óptima,
+                    y todo esto en el marco de un precio económico, ajustandonos a los parametros de las eco
+                    comunidades.
+                    Y como nunca se encontró la opción ideal, ¡se nos ocurrió la idea de nosotros mismos ese entorno de
+                    ensueño!
+                </p>
 
-        <!--    Section: ПРОЕКТ -->
-        <section id="project">
-            <h2 class="mb-5 text-center">Почему Dream ECO Village?</h2>
-            <div class="row mb-5">
-                <div class="col-lg-3">
-                    <h6 class="text-center font-weight-bolder">Привлекательная цена</h6>
-                    <p>мы используем технологию модульного строительства из морских контейнеров,
-                        что позволяет снизить цену дома на 30- 50% при сравнении с аналогами,
-                        так как нет необходимости в массивном фундаменте и возведении коробки дома</p>
-                </div>
-                <div class="col-lg-3">
-                    <h6 class="text-center font-weight-bolder">Скорость строительства</h6>
-                    <p>мы производим полный цикл строительных работ в 2 раза быстрее
-                        при сравнении с классической системой застройки
-                        (от проекта до празднования новоселья пройдет всего 6 месяцев)</p>
-                </div>
+                <p> El padre de la familia dijo: “¡Una casa modular hecha con contenedores maritimos, que sea ecológica,
+                    económica y elegante!” Los demás se miraron con incredulidad, sobre todo no estaba claro con qué
+                    tipo de contenedores.
+                </p>
 
-                <div class="col-lg-6 w-100">
-                    <img src="images/project.jpg" class="img-fluid" />
+                <p>Después de esto, toda la familia comenzó a sumergirse en esta tecnología modular de eco-construcción,
+                    vio programas,
+                    videos, estudió blogs y blogs de residentes de tales casas, nos comunicamos con eco-arquitectos que
+                    trabajaban
+                    con esta tecnología. Encontramos una gran cantidad de edificios residenciales y no solo de
+                    contenedores:
+                    centros comerciales y oficinas en Londres, un campus en los Países Bajos, un hotel en un estación de
+                    esquí en Georgia
+                    e innumerables edificios residenciales en todo el mundo y en todos los continentes desde la
+                    Antártida hasta Canadá,
+                    desde Rusia hasta Australia...
+                </p>
+
+                <p> Con la ayuda de expertos en ecoconstrucción, estudiamos la experiencia de una gran cantidad de tecnologías
+                    que le permiten construir una casa con una cantidad mínima de residuos de construcción,
+                    utilizando materiales amigables con el medio ambiente, así como reutilizar materiales de acuerdo
+                    con todos los códigos de construcción, y como resultado, obtenemos una casa con un consumo mínimo de energía de acuerdo con la clase A.
+                    Y eficiencia energética ya en un buen precio.
+                </p>
+
+                <p> Hemos elegido lo mejor para nuestro hogar y queremos compartirlo contigo en nuestro proyecto.
+                    Si el cuidado del medio ambiente y la comodidad de tu familia están en tus prioridades,
+                    bienvenido a DREAM ECO VILLAGE.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--    Section: ABOUT -->
+
+<hr class="my-5">
+
+<!--    Section: MODELS-->
+<section id="layouts">
+    <!--Layouts-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+
+                <!-- Heading -->
+                <h2 class="section-title">DISEÑOS</h2>
+
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="dream90-tab" data-toggle="tab" href="#dream90" role="tab"
+                           aria-controls="dream90" aria-selected="true">Sueño 90</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="dream120-tab" data-toggle="tab" href="#dream120" role="tab"
+                           aria-controls="dream120" aria-selected="false">Sueño 120</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="dream90" role="tabpanel"
+                         aria-labelledby="dream90-tab">
+                        <br>
+                        <h6>Precio desde 220 000 euros</h6>
+                        <ul class="list-unstyled">
+                            <li>Útil: 90 м2</li>
+                            <li>Altura del techo: mínimo 2,7 m</li>
+                            <br>
+                            <li>Dormitorios: 3</li>
+                            <li>Baños: 1</li>
+                        </ul>
+                        <h6>Componentes:</h6>
+                        <ul>
+                            <li>aislamiento - 200 mm,</li>
+                            <li>puertas y ventanas de doble acristalamiento, opción de triple acristalamiento,</li>
+                            <li>cableado y fontanería oculto,</li>
+                            <li>cuarto de baño completo,</li>
+                            <li>cuadro eléctrico integrado y cuadro principal integrado,</li>
+                            <li>iluminación interior y exterior,</li>
+                            <li>decoración de interiores: decoración de paredes y suelos (laminado, madera, cerámica)</li>
+                            <li>revestimiento exterior,</li>
+                            <li>ventanas panorámicas,</li>
+                            <li>veranda.</li>
+                        </ul>
+                        <h6>Gastos adicionales:</h6>
+                        <ul>
+                            <li>muebles y accesorios,</li>
+                            <li>paneles solares,</li>
+                            <li>huerto inteligente,</li>
+                            <li>sistema de reciclaje de residuos orgánicos.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="dream120" role="tabpanel" aria-labelledby="dream120-tab">
+                        <br>
+                        <h6>Precio desde 250 000 euros</h6>
+                        <ul class="list-unstyled">
+                            <li>Útil: 120 м2</li>
+                            <li>Altura del techo: mínimo 2,7 m</li>
+                            <br>
+                            <li>Dormitorios: 4</li>
+                            <li>Baños: 2</li>
+                        </ul>
+                        <h6>Componentes:</h6>
+                        <ul>
+                            <li>aislamiento - 300 mm,</li>
+                            <li>puertas y ventanas de doble acristalamiento, opción de triple acristalamiento,</li>
+                            <li>cableado y fontanería oculto,</li>
+                            <li>cuarto de baño completo,</li>
+                            <li>cuadro eléctrico integrado y cuadro principal integrado,</li>
+                            <li>iluminación interior y exterior,</li>
+                            <li>decoración de interiores: decoración de paredes y suelos (laminado, madera, cerámica)</li>
+                            <li>revestimiento exterior,</li>
+                            <li>ventanas panorámicas,</li>
+                            <li>veranda.</li>
+                        </ul>
+                        <h6>Additional expenses:</h6>
+                        <ul>
+                            <li>furniture and accessories,</li>
+                            <li>solar panels,</li>
+                            <li>smart vegetable garden,</li>
+                            <li>organic waste recycling system.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-3">
-                    <h6 class="text-center font-weight-bolder">Экологичность процесса</h6>
-                    <p>за счет повторного использования морского контейнера и
-                        отсутствия значительного объема строительного мусора
-                        мы с вами вносим вклад в защиту окружающей среды</p>
-                </div>
-                <div class="col-lg-3">
-                    <h6 class="text-center font-weight-bolder">Высокое качество</h6>
-                    <p>используем высококачественные материалы при строгом соблюдении всех строительных норм.
-                        Качественная теплоизоляция и контролируемая вентиляция гарантируют комфортную среду в доме и
-                        приятную экономию на энергозатратах</p>
-                </div>
-                <div class="col-lg-3">
-                    <h6 class="text-center font-weight-bolder">Местоположение</h6>
-                    <p>поселок расположен рядом с необходимой инфраструктурой
-                        для комфортной и качественной жизни, вблизи от моря.</p>
-                </div>
-                <div class="col-lg-3">
-                    <h6 class="text-center font-weight-bolder">Душевное соседство</h6>
-                    <p>жители DREAM ECO VILLAGE - это люди, оберегающие семейные ценности и
-                        заботящиеся об окружающем мире</p>
-                </div>
+            <div class="col-md-5 d-none d-lg-block d-xl-block">
+                <!--                <div class="h-100 substrate">-->
+                <img src="images/layouts.jpg" class="mx-auto img-fluid" alt="layouts"/>
+                <!--                </div>-->
             </div>
-        </section>
-        <!--    Section: ПРОЕКТ -->
+        </div>
+    </div>
+</section>
+<!--    Section: MODELS-->
 
-        <hr class="my-5">
+<hr class="my-5">
 
-        <!--    Section: О НАС-->
-        <section id="about">
-            <div class="row">
-                <div class="col-lg-5 order-md-first order-last">
-                    <!--                <div class="h-100 w-100 substrate">-->
-                    <img src="images/About.JPG" class="img-fluid"/>
-                    <!--                </div>-->
-                </div>
-                <div class="col-lg-7 order-md-last order-first">
-                    <!--                Heading-->
-                    <h2 class="mb-5 text-center">О НАС</h2>
-                    <p>Нас зовут Екатерина и Эмилияно, мы создатели проекта DREAM ECO VILLAGE.<br> Мы
-                        рады, приветствовать Вас на нашем сайте.</p>
-
-                    <p> Хотим поделиться с Вами историей создания нашего проекта. Однажды за ужином мы в
-                        очередной раз мечтали о новом просторном (ведь нас теперь пятеро) доме, чтобы рядом
-                        было все, что нам нужно: школа, поликлиника, остановки автобусов и поездов, а также
-                        нас радовали оптимальные счета за коммуналку, и все это по экономичной цене. И так
-                        как идеального варианта так и не находилось, пришла в голову идея воплотить это
-                        самим!</p>
-
-                    <p> Глава семейства заявил: ‘Модульный дом из морских контейнеров - экологично,
-                        экономично и стильно!’ Остальные посмотрели с недоверием, особенно было не понятно,
-                        что за контейнеры.</p>
-
-                    <p>И вот уже вся семья стала погружаться в эту технологию модульного эко строительства,
-                        смотрели передачи, ролики, изучали блоги и влоги жителей таких домов, переписывались
-                        с экоархитекторами, работающим по этой технологии. Мы нашли огромное количество
-                        жилых и не только зданий из контейнеров: торговые центры и офисы в Лондоне,
-                        студенческий городок в Нидерландах, отель горнолыжного курорта в Грузии и
-                        бесчисленное множество жилых домов по всему миру и на всех континентах от
-                        Антарктиды до Канады, от России до Австралии.</p>
-
-                    <p> С помощью экспертов эко строительства мы изучили опыт большого количества
-                        технологий, которые позволяют строить дом с минимальным количеством строительного
-                        мусора, применяя экологичные материалы, а также повторно использовать материалы
-                        при соблюдении всех строительных норм, и в результате чего получаем дом с
-                        минимальным энергопотреблением в соответствии с классом А энергоэффективности и с
-                        приятной ценой.</p>
-
-                    <p> Мы выбрали лучшее для своего дома и этим хотим делиться с Вами в нашем проекте.
-                        Если Вам близки забота об окружающей среде и комфорт для семьи, добро пожаловать в
-                        DREAM ECO VILLAGE.</p></div>
+<!--    Section: STAGES-->
+<section id="stages">
+    <!--Layouts-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <img src="images/dreamhouse.jpg" class="img-fluid" alt="dreamhouse"/>
             </div>
-        </section>
-        <!--    Section: О НАС -->
-
-        <hr class="my-5">
-
-        <!--    Section: ПЛАНИРОВКИ-->
-        <section id="layouts">
-            <!--Layouts-->
-            <div class="row">
-                <div class="col-md-7">
-
-                    <!-- Heading -->
-                    <h2 class="mb-5 text-center">ПЛАНИРОВКИ</h2>
-
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <a class="nav-link active" id="dream90-tab" data-toggle="tab" href="#dream90" role="tab"
-                               aria-controls="dream90" aria-selected="true">Dream 90</a>
+            <div class="col-md-5">
+                <h2 class="section-title">CASA DE ENSUEÑO <br>EN 6 MESES</h2>
+                <div class="">
+                    <ul>
+                        <li class="mb-4">
+                            <h4>2 meses </h4>
+                            <p> Creación y aprobación de un proyecto de vivienda </p>
                         </li>
-                        <li class="nav-item" role="presentation">
-                            <a class="nav-link" id="dream120-tab" data-toggle="tab" href="#dream120" role="tab"
-                               aria-controls="dream120" aria-selected="false">Dream 120</a>
+                        <li class="mb-4">
+                            <h4>1 mes </h4>
+                            <p>Obtener un permiso de construcción</p>
+                        </li>
+                        <li class="mb-4">
+                            <h4>3 meses </h4>
+                            <p>Montaje de la estructura, acabado interior y exterior </p>
+                        </li>
+                        <li class="mb-4">
+                            <h4>Hurra! </h4>
+                            <p>Inauguración</p>
                         </li>
                     </ul>
-                    <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="dream90" role="tabpanel" aria-labelledby="dream90-tab">
-                            <br>
-                            <h6>Цена от 220 000 евро</h6>
-                            <ul class="list-unstyled">
-                                <li>Жилая площадь: 90 м2</li>
-                                <li>Высота потолка: минимум 2,7 м</li><br>
-                                <li>Спальни: 3</li>
-                                <li>Ванные комнаты: 1</li>
-                            </ul>
-                            <h6>Составные части:</h6>
-                            <ul>
-                                <li>изоляция - 200 мм,</li>
-                                <li>тройное остекление (внутренний слой с энергоэффективным слоем),</li>
-                                <li>двери и окна ПВХ с тройным остеклением,</li>
-                                <li>скрытая проводка сантехники,</li>
-                                <li>ванная комната с умывальником, туалетом и ванной,</li>
-                                <li>встроенный электрический и встраиваемый главный распределительный щит,</li>
-                                <li>внутреннее и внешнее освещение,</li>
-                                <li>внутренняя отделка: отделка стен и пола (ламинат, дерево, керамика)</li>
-                                <li>наружное покрытие,</li>
-                                <li>панорамные окна,</li>
-                                <li>веранда.</li>
-                            </ul>
-                            <h6>Дополнительные расходы:</h6>
-                            <ul>
-                                <li>мебель и аксессуары,</li>
-                                <li>солнечные батареи,</li>
-                                <li>умный огород,</li>
-                                <li>система переработки органических отходов</li>
-                            </ul>
-                        </div>
-                        <div class="tab-pane fade" id="dream120" role="tabpanel" aria-labelledby="dream120-tab">
-                            <br>
-                            <h6>Цена от 250 000 евро</h6>
-                            <ul class="list-unstyled">
-                                <li>Жилая площадь: 120 м2</li>
-                                <li>Высота потолка: минимум 2,7 м</li><br>
-                                <li>Спальни: 4</li>
-                                <li>Ванные комнаты: 2</li>
-                            </ul>
-                            <h6>Составные части:</h6>
-                            <ul>
-                                <li>изоляция - 300 мм,</li>
-                                <li>тройное остекление (внутренний слой с энергоэффективным слоем),</li>
-                                <li>двери и окна с двойным остеклением,</li>
-                                <li>скрытая проводка сантехники,</li>
-                                <li>ванная комната с умывальником, туалетом и ванной,</li>
-                                <li>встроенный электрический и встраиваемый главный распределительный щит,</li>
-                                <li>внутреннее и внешнее освещение,</li>
-                                <li>внутренняя отделка: отделка стен и пола (ламинат, дерево, керамика)</li>
-                                <li>наружное покрытие,</li>
-                                <li>панорамные окна,</li>
-                                <li>веранда.</li>
-                            </ul>
-                            <h6>Дополнительные расходы:</h6>
-                            <ul>
-                                <li>мебель и аксессуары,</li>
-                                <li>солнечные батареи,</li>
-                                <li>умный огород,</li>
-                                <li>система переработки органических отходов</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-5 d-none d-lg-block d-xl-block">
-                    <!--                <div class="h-100 substrate">-->
-                    <img src="images/layouts.jpg" class="mx-auto img-fluid"/>
-                    <!--                </div>-->
                 </div>
             </div>
-        </section>
-        <!--    Section: ПЛАНИРОВКИ-->
-
-        <hr class="my-5">
-
-        <!--    Section: ЭТАПЫ-->
-        <section id="stages">
-            <!--Layouts-->
-            <div class="row">
-                <div class="col-md-7 d-xs-none d-lg-block">
-                    <!--                <div class="h-100 w-100 mb-5">-->
-                    <img src="images/dreamhouse.jpg" class="img-fluid"/>
-                    <!--                </div>-->
-                </div>
-                <div class="col-md-5">
-                    <h2 class="text-center mb-5">ДОМ МЕЧТЫ ЗА 6 МЕСЯЦЕВ</h2>
-                    <div class="">
-                        <ul>
-                            <li class="mb-4">
-                                <h4>2 месяца </h4>
-                                <p>Создание и утверждение проекта дома </p>
-                            </li>
-                            <li class="mb-4">
-                                <h4>1 месяц </h4>
-                                <p>Получение разрешения на строительство</p>
-                            </li>
-                            <li class="mb-4">
-                                <h4>3 месяца </h4>
-                                <p>Возведение конструкции, внутренняя отделка</p>
-                            </li>
-                            <li class="mb-4">
-                                <h4>Ура! </h4>
-                                <p>Новоселье</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--    Section: ЭТАПЫ-->
-
-        <hr class="my-5">
-
-        <!--    Section: ГАЛЕРЕЯ-->
-        <section id="gallery">
-            <div class="row">
-                <div class="col-lg-3 mb-4">
-                    <img src="images/g1.jpg" class="img-fluid"/>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <img src="images/g2.jpg" class="img-fluid"/>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <div class="thumbnail">
-                        <img src="images/g3.jpg" class="img-fluid"/>
-                    </div>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <img src="images/g4.jpg" class="img-fluid"/>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 mb-4">
-                    <img src="images/g5.jpg" class="img-fluid"/>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <img src="images/g6.jpg" class="img-fluid"/>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <img src="images/g7.jpg" class="img-fluid"/>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <img src="images/g8.jpg" class="img-fluid"/>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 mb-4">
-                    <img src="images/g9.jpg" class="img-fluid"/>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <img src="images/g10.jpg" class="img-fluid"/>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <img src="images/g11.jpg" class="img-fluid"/>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <img src="images/g12.jpg" class="img-fluid"/>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 mb-4">
-                    <img src="images/g13.jpg" class="img-fluid"/>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <img src="images/g14.jpg" class="img-fluid"/>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <img src="images/g15.jpg" class="img-fluid"/>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <img src="images/g16.jpg" class="img-fluid"/>
-                </div>
-            </div>
-        </section>
-        <!--    Section: ГАЛЕРЕЯ-->
-
-        <hr class="my-5">
-
-        <!--    Section: КОНТАКТЫ-->
-        <section id="contact">
-            <div class="row">
-                <div class="col-lg-5">
-                    <h2 class="text-center mb-5">КОНТАКТЫ</h2>
-                    <div class="d-flex justify-content-center">
-                        <button type="button" class="btn btn-lg mb-5 contact">
-                            <a href="https://api.whatsapp.com/send?phone=79268840944&amp;
-                    text=Здравствуйте,%20хотим%20подписаться%20на%20актуальные%20цены%20и%20спец.предложения%20на%20ассортимент%20свежих%20овощей%20и%20фруктов."
-                               target="_blank" >ХОЧУ ЛИЧНУЮ КОНСУЛЬТАЦИЮ</a></button>
-                    </div>
-                    <div class="text-center mb-5">
-                        <ul class="list-unstyled mb-4">
-                            <li>
-                                <i class="fas fa-map-marker-alt fa-3x mb-1"></i>
-                                <p class="mb-4">Испания, Барселона</p>
-                            </li>
-                            <li>
-                                <a href=”tel:+34612452540”>
-                                    <i class="fas fa-phone fa-3x mb-1"></i>
-                                </a>
-
-                                <p class="link mb-4">
-
-                                    <a href=”tel://34612452540”>+34.612.45.25.40</a></p>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/ecovillage_dream/">
-                                    <i class="fab fa-instagram fa-3x mb-1"></i>
-                                </a>
-                                <p class="mb-4">ecovillage_dream</p>
-                            </li>
-                            <li>
-
-                                <a href="mailto:olga.cameroon@gmail.com"><i class="fas fa-envelope fa-3x mb-1"></i></a>
-
-
-                                <p class="link mb-4"><a href="mailto:olga.cameroon@gmail.com">olga.cameroon@gmail.com</a></p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="d-flex h-100 w-100  align-bottom justify-content-center">
-                        <img src="images/contact.jpeg" class="img-fluid w-75"/>
-                    </div>
-
-                </div>
-            </div>
-        </section>
+        </div>
     </div>
-</main>
+</section>
+<!--    Section: STAGES-->
 
+<hr class="my-5">
+
+<!--    Section: GALLERY-->
+<section id="gallery">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 mb-4">
+                <img src="images/g1.jpg" class="img-fluid" alt="dream-eco-village"/>
+            </div>
+            <div class="col-lg-3 mb-4">
+                <img src="images/g2.jpg" class="img-fluid" alt="dream-eco-village"/>
+            </div>
+            <div class="col-lg-3 mb-4">
+                <div class="thumbnail">
+                    <img src="images/g3.jpg" class="img-fluid" alt="dream-eco-village"/>
+                </div>
+            </div>
+            <div class="col-lg-3 mb-4">
+                <img src="images/g4.jpg" class="img-fluid" alt="dream-eco-village"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 mb-4">
+                <img src="images/g5.jpg" class="img-fluid" alt="dream-eco-village"/>
+            </div>
+            <div class="col-lg-3 mb-4">
+                <img src="images/g6.jpg" class="img-fluid" alt="dream-eco-village"/>
+            </div>
+            <div class="col-lg-3 mb-4">
+                <img src="images/g7.jpg" class="img-fluid" alt="dream-eco-village"/>
+            </div>
+            <div class="col-lg-3 mb-4">
+                <img src="images/g8.jpg" class="img-fluid" alt="dream-eco-village"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 mb-4">
+                <img src="images/g9.jpg" class="img-fluid" alt="dream-eco-village"/>
+            </div>
+            <div class="col-lg-3 mb-4">
+                <img src="images/g10.jpg" class="img-fluid" alt="dream-eco-village"/>
+            </div>
+            <div class="col-lg-3 mb-4">
+                <img src="images/g11.jpg" class="img-fluid" alt="dream-eco-village"/>
+            </div>
+            <div class="col-lg-3 mb-4">
+                <img src="images/g12.jpg" class="img-fluid" alt="dream-eco-village"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 mb-4">
+                <img src="images/g13.jpg" class="img-fluid" alt="dream-eco-village"/>
+            </div>
+            <div class="col-lg-3 mb-4">
+                <img src="images/g14.jpg" class="img-fluid" alt="dream-eco-village"/>
+            </div>
+            <div class="col-lg-3 mb-4">
+                <img src="images/g15.jpg" class="img-fluid" alt="dream-eco-village"/>
+            </div>
+            <div class="col-lg-3 mb-4">
+                <img src="images/g16.jpg" class="img-fluid" alt="dream-eco-village"/>
+            </div>
+        </div>
+    </div>
+</section>
+<!--    Section: GALLERY-->
+
+<hr class="my-5">
+
+<!--    Section: CONTACTS-->
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <h2 class="text-center mb-5">CONTACTOS</h2>
+                <div class="text-center mb-5">
+                    <ul class="list-unstyled mb-4">
+                        <li>
+                            <i class="fas fa-map-marker-alt fa-2x mb-1"></i>
+                            <p class="mb-4">España, Barcelona</p>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone fa-2x mb-1"></i>
+                            <p class="link mb-4">+34.678.24.73.71</p>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/ecovillage_dream/">
+                                <i class="fab fa-instagram fa-2x mb-1"></i>
+                                <p class="mb-4">ecovillage_dream</p>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="mailto:olga.cameroon@gmail.com"><i class="fas fa-envelope fa-2x mb-1"></i></a>
+                            <p class="link mb-4">
+                                <a href="mailto:dreamecovillage@gmail.com">dreamecovillage@gmail.com</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <img src="images/contact.jpeg" class="img-fluid" alt="dreamhouse"/>
+            </div>
+        </div>
+    </div>
+</section>
+<!--    Section: CONTACTS-->
 <footer>
 </footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
 </body>
 </html>
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>

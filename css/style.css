@@ -8,15 +8,12 @@ h1, h2, h3, h4 {
     color: #5d7963;
     font-family: 'Spectral', serif;
 }
+
 .section-title{
     text-align: center;
     padding-bottom: 30px;
 }
-.aboutmark{
-    text-decoration: none;
-    box-shadow: inset 0 -.5em 0 rgb(147, 169, 156);
-    color: inherit;
-}
+
 p {
     font-family: 'Montserrat', sans-serif;
 }
@@ -28,6 +25,18 @@ p {
 @media (max-width: 992px) {
     li {
         margin-right: 5px;
+    }
+}
+
+#brand{
+    color: #5d7963;
+    font-family: 'Spectral', serif;
+    font-size: xx-large;
+}
+
+@media (max-width: 992px) {
+    #brand {
+        font-size: larger;
     }
 }
 
@@ -182,7 +191,10 @@ p {
         width: 100%;
         border-bottom: none;
     }
-        #stages img {
+    #stages{
+        justify-content: center;
+    }
+    #stages img {
             display: none;
         }
 }
